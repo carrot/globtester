@@ -4,7 +4,7 @@ rupture      = require 'rupture'
 browserify   = require 'roots-browserify'
 
 module.exports =
-  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore']
+  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.conf']
   watcher_ignores: ['node_modules']
 
   extensions: browserify(files: 'assets/js/main.js', out: 'js/build.js')
