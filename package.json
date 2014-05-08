@@ -8,6 +8,10 @@
     "coffee-script": "1.7.x",
     "autoprefixer-stylus": "0.0.4",
     "axis-css": "0.2.x",
-    "rupture": "0.0.3"
+    "rupture": "0.0.3",
+    "minimatch": "^0.2.14",
+    "roots": "^3.0.0-rc.6",
+    "roots-browserify": "0.0.3",
+    "zepto-browserify": "^1.1.3-0"
   }
 }

@@ -10,12 +10,12 @@ block content
   #main
     .field
       label minimatch string
-      input(type='text', value='/**/*.js')
+      input.prompt(type='text', value='/**/*.js')
 
     .field
       label
         | testing against... 
         small (each line is a new match, successful matches highlighted in blue)
       .results(contenteditable)
-        div.match /Users/doge/very/amaze.js
+        div /Users/doge/very/amaze.js
         div /usr/local/bin/wow
