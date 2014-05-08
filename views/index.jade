@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  header
+    .wrap
+      h1 globtester
+      h2: :markdown
+        a little utility for testing [minimatch](https://github.com/isaacs/minimatch)
+
+  #main
+    .field
+      label minimatch string
+      input(type='text', value='/**/*.js')
+
+    .field
+      label
+        | testing against... 
+        small (each line is a new match, successful matches highlighted in blue)
+      .results(contenteditable)
+        div.match /Users/doge/very/amaze.js
+        div /usr/local/bin/wow
