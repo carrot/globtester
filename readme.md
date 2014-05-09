@@ -1,22 +1,23 @@
-Globtester
-==========
+<br />
+<a href='http://globtester.com'><p align='center'>
+  <img src='http://cl.ly/VRWO/logo.svg' alt='Globtester: a little tool for testing minimatch' />
+</p></a>
+<br />
 
-A little utility for testing minimatch [minimatch](https://github.com/isaacs/minimatch)
+### Setup
 
-http://globtester.com
+This site runs on [roots v3](https://github.com/jenius/roots/tree/v3), which you can install using the command `npm i roots@pre -g`, assuming you have a recent version of [node.js](http://nodejs.org) installed.
 
-![](https://i.cloudup.com/CxYhnkMG69-3000x3000.png)
+To get this project running locally:
 
-## Setup
-- make sure [node.js](http://nodejs.org) is installed
-- make sure [roots](http://roots.cx) is installed at v3 (`npm i roots@pre -g`)
-- clone this repo down and `cd` into the folder
-- run `npm install`
-- run `roots watch`
-- ???
-- get money
+- Clone the repo down and `cd` into it
+- Run `npm i`
+- Run `roots watch`
 
-## License & Contributing
+You should see a development version open up in your browser that you can hack on.
 
-- Details on the license [can be found here](license.md)
-- Details on running tests and contributing [can be found here](contributing.md)
+### License & Contributing
+
+Have something you'd like to add? We'd love to see it! Open up a pull request with your feature and we'll check it out as soon as possible.
+
+This project is licensed under [MIT](license.md)
