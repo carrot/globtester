@@ -12,6 +12,7 @@
     "minimatch": "^0.2.14",
     "roots": "^3.0.0-rc.6",
     "roots-browserify": "0.0.3",
-    "zepto-browserify": "^1.1.3-0"
+    "zepto-browserify": "^1.1.3-0",
+    "query-string": "^0.3.1"
   }
 }

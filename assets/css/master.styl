@@ -4,43 +4,43 @@ normalize-css()
 base()
 
 header
-  background: #9FC875
+  background: green
   color: white
   group()
 
   .wrap
     width: 260px
     margin: 40px auto 50px auto
-  
+
   h1
     font-weight: 400
     font-size: 3.7em
     margin: 0
-  
+
   h2
     font-weight: 400
     font-size: 1em
     color: #698F41
     margin-top: -17px
     margin-left: 37px
-    
+
     a
       color: #698F41
       text-decoration: none
       font-weight: 500
-      
+
       &:hover
         color: darken(@color, 20%)
 
 #main
-  
+
   .field
     width: 70%
     max-width: 800px
     margin: 30px auto
     group()
     position: relative
-  
+
   label
     color: #84CB3C
     upcase()
@@ -48,11 +48,11 @@ header
     font-size: .9em
     margin-bottom: 5px
     display: block
-    
+
     small
       color: #ccc
       text-transform: none
-  
+
   input[type=text], .results
     box-sizing: border-box
     font-family: inconsolata, mono
@@ -63,26 +63,42 @@ header
     border-radius: 5px
     font-size: 1.7em
     width: 100%
-    
+
     &:focus
       outline: 0
-      border-color: darken(#DCDCDC, 20%)    
-  
+      border-color: darken(#DCDCDC, 20%)
+
   .results
     min-height: 300px
     font-size: 1.2em
-    
+
     div
       margin-bottom: .4em
-      
+
       &.match
         color: #52BCC6
+
+  .align
+    text-align: center
+
+  .save
+    background: green
+    border-radius: 4px
+    font-size: 1.2em
+    padding: 12px 33px
+    display: inline-block
+    color: white
+    font-weight: 500
+    upcase()
+    cursor: pointer
+    transition()
+    hover-darken()
 
 footer
   opacity: .3
   transition()
   margin: 50px 0
   text-align: center
-  
+
   &:hover
     opacity: .7
