@@ -7,7 +7,7 @@ module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.conf', '.editorconfig', 'license.md']
   watcher_ignores: ['node_modules']
 
-  extensions: browserify(files: 'assets/js/main.js', out: 'js/build.js')
+  extensions: browserify(files: 'assets/js/main.coffee', out: 'js/build.js')
 
   stylus:
     use: [axis(), autoprefixer(), rupture()]
