@@ -6,7 +6,7 @@
 
 ### Setup
 
-This site runs on [roots v3](https://github.com/jenius/roots/tree/v3), which you can install using the command `npm i roots@pre -g`, assuming you have a recent version of [node.js](http://nodejs.org) installed.
+This site runs on [roots v3](https://github.com/jenius/roots/tree/v3), which you can install using the command `npm i roots -g`, assuming you have a recent version of [node.js](http://nodejs.org) installed.
 
 To get this project running locally:
 
