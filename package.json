@@ -3,7 +3,7 @@
   "description": "a little utility for testing minimatch",
   "dependencies": {
     "jade": "1.x",
-    "marked": "0.3.3",
+    "markdown": "0.5.x",
     "stylus": "0.51.x",
     "coffee-script": "1.9.x",
     "autoprefixer-stylus": "0.6.x",
