@@ -1,4 +1,4 @@
-axis         = require 'axis-css'
+axis         = require 'axis'
 autoprefixer = require 'autoprefixer-stylus'
 rupture      = require 'rupture'
 browserify   = require 'roots-browserify'
