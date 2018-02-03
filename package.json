@@ -2,16 +2,16 @@
   "name": "globtester",
   "description": "a little utility for testing minimatch",
   "dependencies": {
+    "autoprefixer-stylus": "0.14.0",
+    "axis": "0.3.x",
+    "coffee-script": "1.12.7",
     "jade": "1.x",
     "markdown": "0.5.x",
-    "stylus": "0.51.x",
-    "coffee-script": "1.9.x",
-    "autoprefixer-stylus": "0.6.x",
-    "axis": "0.3.x",
-    "rupture": "0.6.x",
-    "minimatch": "2.x.x",
+    "minimatch": "3.0.4",
+    "query-string": "2.x.x",
     "roots-browserify": "0.3.x",
-    "zepto-browserify": "1.x",
-    "query-string": "2.x.x"
+    "rupture": "0.6.x",
+    "stylus": "0.51.x",
+    "zepto-browserify": "1.x"
   }
 }
