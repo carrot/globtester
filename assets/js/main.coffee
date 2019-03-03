@@ -1,4 +1,4 @@
-mm = require('minimatch')
+mm = require('micromatch')
 zlib = require('zlib')
 qs = require('query-string')
 $ = require('zepto-browserify').$;
@@ -23,7 +23,7 @@ deflate_hash = (input, key) ->
     location.hash += '&'
 
 #
-# minimatch validation
+# micromatch validation
 #
 
 validate()

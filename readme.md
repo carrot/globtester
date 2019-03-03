@@ -1,6 +1,6 @@
 <br />
 <a href='http://globtester.com'><p align='center'>
-  <img src='http://cl.ly/VRWO/logo.svg' alt='Globtester: a little tool for testing minimatch' />
+  <img src='http://cl.ly/VRWO/logo.svg' alt='Globtester: a little tool for testing micromatch' />
 </p></a>
 <br />
 

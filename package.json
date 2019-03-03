@@ -1,13 +1,13 @@
 {
   "name": "globtester",
-  "description": "a little utility for testing minimatch",
+  "description": "a little utility for testing micromatch",
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
     "axis": "0.3.x",
     "coffee-script": "1.12.7",
     "jade": "1.x",
     "markdown": "0.5.x",
-    "minimatch": "3.0.4",
+    "micromatch": "^3.1.10",
     "query-string": "2.x.x",
     "roots-browserify": "0.3.x",
     "rupture": "0.6.x",
